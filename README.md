@@ -2,6 +2,8 @@
 
 # Challenge: Design a lottery ticket lgorithm so customers can enter a lottery for a particular show, and the system will select a subset of winners to offer the tickets to. Winners are picked based on the number of tickets that are available. This could include an algorithm for picking winners, an API design for entering the lottery, a database model, etc.
 
+##
+
 **My Solution and explaination**
 
 Database:
@@ -35,6 +37,8 @@ Order: {
 	creditCard: String,
 	billingAddress: String,
 }
+
+##
 
 **Algorithm: please check the RandomlyPicked.js file**
 
