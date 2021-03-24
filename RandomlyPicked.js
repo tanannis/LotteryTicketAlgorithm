@@ -26,3 +26,5 @@ function getRandomIndex(waitingList, n) {
 
 
 //You can play around with this code in my replit https://repl.it/@tanannis/LotterySystemAlgoritm
+
+
