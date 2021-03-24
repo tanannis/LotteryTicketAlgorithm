@@ -1,7 +1,8 @@
 # LotteryTicketAlgorithm
 
-## Challenge: Design a lottery ticket lgorithm so customers can enter a lottery for a particular show, and the system will select a subset of winners to offer the tickets to. Winners are picked based on the number of tickets that are available. This could include an algorithm for picking winners, an API design for entering the lottery, a database model, etc.
+**Challenge: Design a lottery ticket algorithm so customers can enter a lottery for a particular show, and the system will select a subset of winners to offer the tickets to. Winners are picked based on the number of tickets that are available. This could include an algorithm for picking winners, an API design for entering the lottery, a database model, etc.
 
+##
 
 **My Solution and explaination**
 
@@ -54,7 +55,8 @@ If there are thousands to millions of unsolve tickets per show, the time complex
 However, the time complexity will become O(1) in real life, because it is very unlikely to have more than 100 unsold show tickets (lottery tickets), most shows are likely to have only around 10 to 30 lottery tickets available, thus generating winners for 30 tickets is constant time. This also applies to the space complexity because an array of 30 winners takes constant space.
 
 
-
+** Happy Coding ^^
+-> Having fun by Annis Tan
 
 
 
