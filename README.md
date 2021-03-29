@@ -9,7 +9,7 @@
 **Database**
 
 I suggest using a relational database, it can be saved in local servers or Cloud services (e.g. Google Cloud, AWS). Because it’s a lottery, I assume each user can only win 1 lottery ticket at a time per day (but the user can request to enter multiple lotteries). Thus in this relationship:
-
+```
 LotteryTicket.hasMany(User);   
 User.hasMany(Order);
 User.belongsTo(LotteryTicket);
@@ -37,7 +37,7 @@ Order: {
 	creditCard: String,
 	billingAddress: String,
 }
-
+```
 ##
 
 **Algorithm: please check the RandomlyPicked.js file**
